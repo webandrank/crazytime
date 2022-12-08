@@ -10,7 +10,7 @@ function BlogPost({ title, author, coverPhoto, datePublished, slug }) {
         <div className={styles.imgContainer}>
           <Image
             className={styles.coverPhoto}
-            src={coverPhoto.url}
+            src={!!coverPhoto?.url && coverPhoto.url}
             alt=''
             fill
             sizes='25vw'
