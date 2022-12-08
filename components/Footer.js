@@ -12,11 +12,8 @@ function Footer() {
           GraphCMS
         </Link>{' '}
         powered Blog made with ❤️ by{'    '}
-        <Link
-          className='footerLink'
-          href='https://www.fiverr.com/rohit_saini_7/get-your-website-built-reactjs'
-        >
-          Rohit.
+        <Link className='footerLink' href='#'>
+          Alex.
         </Link>
       </div>
     </footer>
